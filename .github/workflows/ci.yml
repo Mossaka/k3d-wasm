@@ -28,6 +28,5 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/mossaka/k3s_wasm:${{ env.RELEASE_VERSION }}
             ghcr.io/mossaka/k3s_wasm:latest 
           context: .
